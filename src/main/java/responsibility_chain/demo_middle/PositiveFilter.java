@@ -1,9 +1,9 @@
-package responsibility_chain;
+package responsibility_chain.demo_middle;
 
 /**
  * Author by eltons,  Date on 2018-08-04.
  */
-public class PositiveFilter implements responsibility_chain.Filter {
+public class PositiveFilter implements Filter {
 
     @Override
     public String process(String msg) {
