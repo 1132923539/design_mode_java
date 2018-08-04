@@ -14,8 +14,10 @@ public class Test1 {
         String msg = "<H1>哈哈哈哈，你是不是傻x，总是在骂人</H1>";
         for (Filter filter : filters
                 ) {
-            filter.process(msg);
+            msg = filter.process(msg);
         }
         System.out.println(msg);
     }
+
+
 }
